@@ -11,6 +11,7 @@ class Course {
 	String description
 	int numberOfStudents
 	double tuitionFees
+	String studyMode
 
 	static constraints = {
     		courseTitle nullable: false
@@ -31,7 +32,7 @@ class Course {
     		numberOfStudents maxSize: 60
     		studyMode nullable: false
     		studyMode blank: false
-    		studyMode Size: 0..20
+    		studyMode size: 1..20
     		description nullable: false
     		description blank: false
     		description maxSize: 5000

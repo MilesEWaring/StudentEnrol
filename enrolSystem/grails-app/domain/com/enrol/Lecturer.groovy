@@ -24,7 +24,7 @@ class Lecturer {
 
     	lecturerEmail nullable: false
     	lecturerEmail blank: false
-    	lecturerEmail valid: true
+    	lecturerEmail email: true
 
 
     	bio nullable: false
